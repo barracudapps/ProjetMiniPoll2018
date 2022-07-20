@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="retourCS"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="@string/back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_gravity="center"
+        android:text="Choisis un type\nde sondage !"
+        android:textSize="14pt"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:layout_gravity="center"
+        android:onClick="directionSA"
+        android:text="Sondage pour accord" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="directionSC"
+        android:text="Sondage pour choix" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="directionQ"
+        android:text="Questionnaire" />
+
+</android.support.v7.widget.LinearLayoutCompat>

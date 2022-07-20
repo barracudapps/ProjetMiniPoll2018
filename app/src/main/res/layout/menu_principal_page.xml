@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="disconnect"
+        android:text="@string/logout" />
+
+    <Button
+        android:id="@+id/account_modification"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:layout_gravity="center"
+        android:onClick="account_modification"
+        android:text="@string/account_modification" />
+
+    <Button
+        android:id="@+id/friends_modification"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="friends_modification"
+        android:text="@string/friends_modification" />
+
+    <Button
+        android:id="@+id/liste_sondages_accord"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="listeSondagesAccord"
+        android:text="Sondage pour accord entre amis" />
+
+    <Button
+        android:id="@+id/liste_sondages_choix"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="listeSondagesChoix"
+        android:text="Aider un ami à faire un choix" />
+
+    <Button
+        android:id="@+id/affichage_questionnaires"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="affichageQuestionnaires"
+        android:text="Répondre à un questionnaire" />
+
+    <Button
+        android:id="@+id/creation_sondages"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="creationSondages"
+        android:text="Création de sondages" />
+
+</android.support.v7.widget.LinearLayoutCompat>

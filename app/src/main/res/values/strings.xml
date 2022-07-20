@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MiniPoll</string>
+    <string name="connection">Connexion</string>
+    <string name="inscription">Inscription</string>
+    <string name="back">Retour</string>
+    <string name="password">Mot de passe</string>
+    <string name="old_password">Ancien mot de passe</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="password_validation">Confirmation de mot de passse</string>
+    <string name="confirm">Valider</string>
+    <string name="email">Adresse Email</string>
+    <string name="name">Nom</string>
+    <string name="first_name">Prénom</string>
+    <string name="account_modification">Gestion du compte</string>
+    <string name="logout">Déconnexion</string>
+    <string name="friends_modification">Gestion des amis</string>
+    <string name="friends_list">Liste d'amis</string>
+    <string name="add_friends">Ajouter des amis</string>
+    <string name="friends_request">Demandes d'amis</string>
+    <string name="questionnaires">Liste des questionnaires</string>
+    <string name="opinion_poll_creation">Création de sondage pour accord</string>
+    <string name="choice_survey_creation">Création de sondage pour choix</string>
+    <string name="quiz_creation">Création de questsionnaire</string>
+    <string name="quit">Quitter</string>
+    <string name="result">Résultat</string>
+    <string name="ranking">Classement</string>
+    <string name="retour">Retour</string>
+    <string name="login">Login</string>
+    <string name="description">Description</string>
+    <string name="votrechoix">Vous avez choisi</string>
+    <string name="modifier">Modifier</string>
+    <string name="valider">Valider</string>
+    <string name="pasvote">\ amis n\'ont pas encore voté</string>
+    <string name="tousvote">Tous les invités ont participé à ce sondage!</string>
+    <string name="voiciresultat">Voici le résultat:</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="Retour"
+        android:onClick="retourCQD"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Donne un titre au questionnaire"
+        android:textSize="14pt"/>
+
+    <EditText
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_padding"
+        android:hint="Titre"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="@dimen/small_padding"
+       android:layout_gravity="center"
+       android:text="Choisis le nombre de questions :"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_gravity="center"
+        android:hint="Entre 1 et 5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="Suivant"
+        android:onClick="ecritureQuestion"
+        android:layout_gravity="center"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

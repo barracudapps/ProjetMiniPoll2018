@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="inscription"
+        android:text="@string/inscription" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="connexion"
+        android:text="@string/connection" />
+
+</android.support.v7.widget.LinearLayoutCompat>

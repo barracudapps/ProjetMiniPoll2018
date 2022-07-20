@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="retourEQQ"
+        android:text="@string/back" />
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textSize="14pt"
+        android:layout_gravity="center"/>
+    
+    <EditText
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_gravity="center"
+        android:hint="Tapez votre question ici"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:checkedButton="@+id/text">
+        <RadioButton
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="Image"/>
+        <RadioButton
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="Texte"/>
+
+    </RadioGroup>
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/small_padding"
+    android:hint="Réponse 1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Réponse 2"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Réponse 3"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Réponse 4"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quelle est la bonne réponse ?"
+            android:textSize="@dimen/normal_text_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Entre 1 et 4"
+            android:textSize="@dimen/normal_text_size"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suivant"
+        android:onClick="suivantEQQ"
+        android:layout_gravity="center"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

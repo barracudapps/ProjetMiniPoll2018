@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/login5"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:hint="Suggestion 3"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login3" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="54dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/login5"
+        app:srcCompat="@drawable/ic_camera"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <EditText
+        android:id="@+id/login3"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:hint="Suggestion 2"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login4" />
+
+    <EditText
+        android:id="@+id/login4"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="60dp"
+        android:hint="Suggestion 1"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login2" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="54dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/login4"
+        app:srcCompat="@drawable/ic_camera"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/login2"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:hint="Titre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="27dp"
+        android:text="Donne un titre et des choix"
+        android:textSize="14pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="54dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/login3"
+        app:srcCompat="@drawable/ic_camera"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="8dp"
+        android:onClick="validationCSA"
+        android:text="OK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="57dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login5" />
+
+</android.support.constraint.ConstraintLayout>

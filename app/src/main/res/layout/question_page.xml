@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="backQP"
+        android:text="@string/back"/>
+
+    <TextView
+        android:id="@+id/titre_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_gravity="center"
+        android:text="Quelle est la capitale de la France?" />
+
+    <RadioGroup
+        android:id="@+id/RGQP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/proposition1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proposition1"
+            android:text="Bruxelles" />
+
+        <RadioButton
+            android:id="@+id/proposition2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proposition2"
+            android:text="Paris"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/proposition3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proposition3"
+            android:text="Toulouse" />
+
+        <RadioButton
+            android:id="@+id/proposition4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="proposition4"
+            android:text="Lyon"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="validerQP"
+        android:text="Suivant"
+        android:layout_gravity="end"/>
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

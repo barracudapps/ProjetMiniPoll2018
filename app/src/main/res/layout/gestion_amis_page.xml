@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_padding"
+        android:onClick="backGAP"
+        android:text="@string/back" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:layout_gravity="center"
+        android:onClick="listeAmisGAP"
+        android:text="@string/friends_list" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="ajoutAmisGAP"
+        android:text="@string/add_friends" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="demandesAmisGAP"
+        android:text="@string/friends_request" />
+
+</android.support.v7.widget.LinearLayoutCompat>

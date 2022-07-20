@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="OK"
+        android:onClick="validationCSP"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_editor_absoluteX="107dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="210dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="9dp"
+        android:contentDescription="Picture"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:srcCompat="@color/colorPrimary"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/back"
+        android:onClick="retourCSP"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="14dp"
+        android:text="Choisis des participants !"
+        android:textSize="14pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:contentDescription="Button Previous"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_media_previous"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:contentDescription="Button Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:srcCompat="@android:drawable/ic_media_next"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="210dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Picture"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+        app:srcCompat="@color/colorPrimary"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="16dp"
+        android:text="Ami 2"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
+        android:text="Ami 1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+</android.support.constraint.ConstraintLayout>
